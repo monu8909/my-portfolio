@@ -5,10 +5,9 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
+// import TesingComponent from "./components/TesingComponent";
 
 export default function Home() {
-  console.log("sdnfknskdnfksd", process.env.PUBLIC_URL);
-
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <Navbar />
@@ -18,6 +17,7 @@ export default function Home() {
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
+        {/* <TesingComponent /> */}
       </div>
       <Footer />
     </main>
