@@ -8,7 +8,7 @@ import Link from "next/link";
 const HeroSection = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = `/public/images/Monu_Rajput_React_JS_3_Years.pdf`; // Path to your PDF file
+    link.href = `/images/Monu_Rajput_React_JS_3_Years.pdf`; // Path to your PDF file
     link.download = "Monu_Rajput_React JS_3_Years.pdf"; // Name of the downloaded file
     link.click();
   };
