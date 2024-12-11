@@ -59,7 +59,10 @@ const EmailSection = () => {
           <Link target="_blank" href="https://github.com/monu8909">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link target="_blank" href="https://www.linkedin.com/in/monu-rajput-2b3b55150/">
+          <Link
+            target="_blank"
+            href="https://www.linkedin.com/in/monu-rajput-2b3b55150/"
+          >
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
@@ -84,7 +87,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="email"
               />
             </div>
             <div className="mb-6">
@@ -100,7 +103,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
+                placeholder="Subject"
               />
             </div>
             <div className="mb-6">
