@@ -15,8 +15,8 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "E-commerce and social media platform",
-    description: "E-commerce and social media platform",
+    title: "E-commerce platform",
+    description: "E-commerce platform",
     image:
       "/images/Dispensary-deals-weed-promos-BOGO-deals-near-you-Leafly.png",
     tag: ["All", "Web"],
@@ -29,7 +29,7 @@ const projectsData = [
     description: "Internal Portal",
     image: "/images/AIC-OF-INDIA-LIMITED1.png",
     tag: ["All", "Mobile"],
-    previewUrl: "https://www.aicofindia.com/",
+    previewUrl: "https://myaic.aicofindia.com/",
   },
   {
     id: 5,
@@ -41,8 +41,8 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Business Website",
-    description: "Business Website",
+    title: "Real state Website",
+    description: "Real state Website",
     image: "/images/Meteryard.png",
     tag: ["All", "Web"],
     previewUrl: "https://www.meteryard.com/",
