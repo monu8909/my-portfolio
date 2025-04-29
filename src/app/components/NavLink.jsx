@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 const NavLink = ({ href, title }) => {
+  console.log("href--->", href);
+
   return (
     <Link
       href={href}
